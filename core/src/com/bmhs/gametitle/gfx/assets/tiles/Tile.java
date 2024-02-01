@@ -1,6 +1,5 @@
 package com.bmhs.gametitle.gfx.assets.tiles;
 
-
 public abstract class Tile {
 
     public static final int ON_SCREEN_DEFAULT_HEIGHT = 64, ON_SCREEN_DEFAULT_WIDTH = 64;

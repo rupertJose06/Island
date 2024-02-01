@@ -47,7 +47,7 @@ public class WorldGenTestScreen implements Screen {
         viewport = new FitViewport(Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), camera);
         viewport.setScreenBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 
-        world = new World( 100, 167);
+        world = new World(100, 167);
 
         camera.update();
     }
