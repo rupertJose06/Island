@@ -49,4 +49,11 @@ public class NonPlayerCharacter extends Character{
             System.out.println("I'm at " + getY() + " " + getX());
         }
     }
+
+    public void walk() {
+        if(Math.random() > 0.95) {
+            adjustX(MathUtils.random(-10, 10));
+            adjustY(MathUtils.random(-10, 10));
+        }
+    }
 }

@@ -148,9 +148,39 @@ public class WorldGenTestScreen implements Screen {
             player.adjustY(10);
         }
 
+        if (Gdx.input.isKeyPressed(Input.Keys.DOWN)) {
+            player.adjustY(-10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) {
+            player.adjustX(-10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) {
+            player.adjustX(10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
+            player.adjustY(10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
+            player.adjustY(-10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+            player.adjustX(-10);
+        }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+            player.adjustX(10);
+        }
+
         if(Gdx.input.isKeyJustPressed(Input.Keys.ESCAPE)){
             game.setScreen(parent);
         }
+
+
     }
 
     private void setCameraLimits() {
