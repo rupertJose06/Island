@@ -137,8 +137,8 @@ public class WorldGenerator {
     }
 
     public void createWater() {
-        waterColor1 = 22;
-        waterColor2 = 24;
+        waterColor1 = 23;
+        waterColor2 = 25;
         axis = 11;
         int minStr = 7;
 
